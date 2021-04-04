@@ -1,12 +1,12 @@
 /*@font-face es para importar una fuente*/
 body
 {
-    background-color: #1F1F23;
+    background-color: #ededed;
 }
 header
 {
     background-color: black;
-    color: blanchedalmond;
+    color: #ededed;
     text-align: center;
     padding-top: 0.25em;
     padding-bottom: 0.25em;
@@ -14,11 +14,20 @@ header
 }
 #titulo
 {
-    text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 5px;
 }
 #titulo1
 {
-    font-family: normal;
+    letter-spacing: normal;
+}
+#caja
+{
+    background: black;
+    color: #ededed;
+}
+#guate
+{
+    background: black;
+    clear: both;
 }
