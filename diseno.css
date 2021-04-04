@@ -1,0 +1,24 @@
+/*@font-face es para importar una fuente*/
+body
+{
+    background-color: #1F1F23;
+}
+header
+{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    border-radius: 10px;
+}
+#titulo
+{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+}
+#titulo1
+{
+    font-family: normal;
+}
