@@ -21,13 +21,19 @@ header
 {
     letter-spacing: normal;
 }
-#caja
+td
 {
     background: black;
     color: #ededed;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 #guate
 {
-    background: black;
+    float: right;
+    border-radius: 5px;
     clear: both;
 }
