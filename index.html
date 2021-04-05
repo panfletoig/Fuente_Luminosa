@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <title>Guatemala</title>
     <link rel="icon" href="img/mundo.png">
-    <link rel="stylesheet" href="css/diseno.css">
-    <link href="css/fuente.css" rel="stylesheet" />
+    
+    <!--Diseño de la pagina-->
+    <link rel="stylesheet" href="css/diseno.css"/>
+
+    <!--Tipo de letra-->
+    <link  rel="stylesheet" href="css/fuente.css"/>
+
 </head>
 <body>
+    <!--solo estan los titulos en header-->
     <header>
+        <!--id es para poder llamarlos desde css o en js-->
         <h1 id="titulo">Guatemala</h1>
         <h2 id="titulo1"">Fuente luminosa</h2>
     </header>
     <div class="tabla">
+        <!--Una tabla para ir pocicionando texto e imagenes-->
         <table id="tabla1">
+            <!--Primera seccion-->
             <td>
                 <div id="parrafo">
                     <p>
@@ -40,23 +50,31 @@
                     </p>
                 </div>
             </td>
+            <!--Segunda seccion-->
             <td>
-                <img id="fuente2" src="img/fuente2.jpg" width="600" height="375">
+                <img id="fuente2" src="img/fuente2.jpg">
             </td>
+            <!--Tercera seccion-->
             <td>
-                <img id="guate" src="img/guatemala.png" width="600" height="375">
+                <img id="guate" src="img/guatemala.png">
             </td>
         </table>
     </div>
+
+    <!--divide con un espacio la siguiente tabla-->
     <br>
+    
     <div id="bordes">
+        <!--le puse dos porque no?-->
         <table id="tabla1" class="tabla">
+            <!--aqui separe titulos y texto-->
             <tr>
                 <th id="titulos"><h4>Datos: </h4></th>
                 <th></th>
                 <th id="titulos"><h4>Lo que yo veo:</h4></th>
             </tr>
             <tr>
+                <!--Primera seccion-->
                 <th align="left">
                     <p id="parrafo">
                         Comenzando por su ubicacion, esta en el departamento
@@ -75,14 +93,19 @@
                         Atravez de los años a sufido modificaciones
                         la ultima fue entre 1984 y 1985. <br><br>
                     </p>
+                    <!--blockquote para creditos-->
                     <blockquote id="creditos" cite="http://cultura.muniguate.com/index.php/component/content/article/109-fuenteluminosa/664-fuenteluminosa">
                         <!--acorte el link-->
                         Datos: <a href="https://n9.cl/h4jz">MuniGuate</a>
                     </blockquote>
                 </th>
+
+                <!--Segunda seccion-->
                 <th id="margen">
                     <img id="fuente" src="img/fuente.jpg" alt="">
                 </th>
+
+                <!--Tercera seccion-->
                 <!--valign es para poner el texto alineado arriba-->
                 <th align="left" valign="top">
                     <p id="parrafo">
