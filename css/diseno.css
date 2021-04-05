@@ -21,34 +21,65 @@ header
 {
     letter-spacing: normal;
 }
+
 td
 {
-    background: black;
     color: #ededed;
-    border-radius: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+    z-index: 0;
 }
-#guate
-{
-    float: right;
-    width: 43.5em;
-    border-radius: 5px;
-    clear: both;
-}
-#contenedor
-{
-    width: 100em;
-    background: rgb(104, 104, 104);
-}
+
 #parrafo
 {
+    background: black;
+    border-radius: 0px 2em 7em 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
     width: 25em;
 }
+
 #fuente2
 {
-    width: 43.5em;
-    border-radius: 5px;
+    background: rgb(88, 88, 88);
+    float: right;
+    width: 600px;
+    height: 375px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+#guate
+{
+    background: rgb(88, 88, 88);
+    float: right;
+    width: 600px;
+    height: 375px;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+#tabla1
+{
+    background: rgb(88, 88, 88);
+    border-collapse:collapse;
+    border-spacing: 0px 20px;
+}
+
+.tabla 
+{
+    padding-top: 10px;
+    border-spacing: 100px 0px;
+    min-width :100%;
+	position:relative;
+	margin-left:auto; 
+    margin-right:auto; 
+    margin-top:auto;
+	left:auto; right:auto; top:auto;
 }
